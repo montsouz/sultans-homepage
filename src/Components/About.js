@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import {Carousel} from 'react-responsive-carousel';
 
 class About extends Component {
     render() {
@@ -28,11 +30,20 @@ class About extends Component {
                     <div className="nine columns main-col">
                         <h2>Para curtir um som</h2>
                         <br></br>
-                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTJ7xPn4vNaz" width="300"
-                                height="380" frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                        <Carousel style={{backgroundColor:"transparent"}}>
+                            <div>
+                                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTJ7xPn4vNaz" width="300"
+                                        height="380" frameBorder="0" allowTransparency="true"
+                                        allow="encrypted-media"></iframe>
+                            </div>
+                            <div style={{backgroundColor:"transparent"}}>
+                                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTJ7xPn4vNaz" width="300"
+                                        height="380" frameBorder="0" allowTransparency="true"
+                                        allow="encrypted-media"></iframe>
+                            </div>
+                        </Carousel>
                     </div>
                 </div>
-
             </section>
         );
     }

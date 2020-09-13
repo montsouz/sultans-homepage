@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ParticlesBg from "particles-bg";
 
 class Header extends Component {
     render() {
@@ -7,12 +6,11 @@ class Header extends Component {
 
         const tickets = 'https://www.sympla.com.br/';
         const title = 'Doze de Outubro 2020';
-        const description = "Está é a pagina que fizemos especialmente para o evento, aqui você vai encontrar informações sobre como adquirir ingressos e vai poder ouvir playlists especiais";
+        const description = "Esta é a página que fizemos especialmente para o evento, aqui você vai encontrar informações sobre como adquirir ingressos e vai poder ouvir playlists especiais";
 
 
         return (
             <header id="home">
-                <ParticlesBg type="circle" bg={true}/>
                 <nav id="nav-wrap">
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>

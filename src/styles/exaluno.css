@@ -1,0 +1,54 @@
+.exaluno-container {
+    display: flex;
+    padding: 8px;
+    position: absolute;
+}
+
+.exaluno-img{
+    width: auto;
+    height: 600px;
+    position: center;
+}
+
+.exaluno-desc{
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    bottom: 0;
+    width: 100%;
+    height: 111px;
+}
+
+.exaluno-name {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    font-size: 28px;
+    bottom: 69px;
+    left: 15px;
+}
+
+.exaluno-fullName {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    font-size: 17px;
+    bottom: 44px;
+    left: 16px;
+}
+
+.exaluno-graduatedIn {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    bottom:30px;
+}
+
+.exaluno-graduatedYears {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    bottom: 22px;
+    left: 16px;
+}
+
