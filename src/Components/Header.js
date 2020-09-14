@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
 
 
-        const tickets = 'https://www.sympla.com.br/';
+        const tickets = 'https://www.sympla.com.br/doze-teste__977619';
         const title = 'Doze de Outubro 2020';
         const description = "Esta é a página que fizemos especialmente para o evento, aqui você vai encontrar informações sobre como adquirir ingressos e vai poder ouvir playlists especiais";
 

@@ -962,6 +962,14 @@ call-to-action .button {
     color: white;
 }
 
+#exalunos h3 {
+    color: white;
+}
+
+#about h3 {
+    color: white;
+}
+
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
@@ -1255,7 +1263,9 @@ footer .social-links li:first-child {
 .github-btn {
     background-color: #53392b !important;
 }
-
-.carousel .slider-wrapper.axis-horizontal .slider .slide{
-    background-color: transparent;
+.playlists div {
+    margin-bottom: 15px;
 }
+/*.carousel .slider-wrapper.axis-horizontal .slider .slide{*/
+    /*background-color: transparent;*/
+/*}*/

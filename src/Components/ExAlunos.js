@@ -1,4 +1,4 @@
-import {EXALUNOS} from '../Documents/exalunos'
+import {EXALUNOS} from '../Documents/homenageados/exalunos'
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import '../styles/exaluno.css'
