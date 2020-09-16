@@ -23,7 +23,7 @@ const ExAlunos = () => {
             <div className="row">
                 <div className="nine columns main-col">
                     <h2>Ex-alunos Homenageados </h2>
-                    <Slider duration={0} autoplay={3000}>
+                    <Slider duration={0} autoplay={3000} touchDisabled={true}>
                         {EXALUNOS.map(exaluno => generateExAluno(exaluno))}
                     </Slider>
                 </div>

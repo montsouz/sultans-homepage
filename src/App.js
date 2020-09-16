@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Exalunos from './Components/ExAlunos';
+import Playlists from './Components/Playlists'
 
 
 class App extends Component {
@@ -46,6 +47,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <Exalunos/>
         <About data={this.state.resumeData.main}/>
+        <Playlists/>
         <Footer data={this.state.resumeData.main}/>
       </div>
     );

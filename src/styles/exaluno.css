@@ -6,7 +6,7 @@
 
 .exaluno-img{
     width: auto;
-    height: 600px;
+    height: 550px;
     position: center;
 }
 
@@ -51,4 +51,19 @@
     bottom: 22px;
     left: 16px;
 }
+
+.tutorial-container {
+    display: flex;
+}
+
+@media screen and (min-width: 600px) {
+    .exaluno-img{
+        width: 500px;
+        height: 600px;
+    }
+
+    .desktop-paragraph {
+        padding: 0 267px  0 0;
+    }
+  }
 
