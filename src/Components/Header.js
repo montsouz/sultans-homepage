@@ -6,7 +6,7 @@ class Header extends Component {
 
         const tickets = 'https://www.sympla.com.br/doze-de-outubro-2020---jardim-de-alah__982152';
         const title = 'Doze de Outubro 2020';
-        const description = "Esta é a página que fizemos especialmente para o evento, aqui você vai encontrar informações sobre como adquirir ingressos e vai poder ouvir playlists especiais";
+        const description = "Esta é a página que fizemos especialmente para o evento, aqui você vai encontrar informações sobre como adquirir convites gratuitos e vai poder ouvir playlists especiais";
 
 
         return (
@@ -28,7 +28,7 @@ class Header extends Component {
                         <h3>{description}.</h3>
                         <hr/>
                         <ul className="social">
-                            <a href={tickets} className="button btn project-btn"><i className="fa fa-ticket"></i>Ingressos</a>
+                            <a href={tickets} className="button btn project-btn"><i className="fa fa-ticket"></i>Convite</a>
                             <a href="#about" className="button btn github-btn"><i className="fa fa-plus"></i>Saber mais</a>
                         </ul>
                     </div>
