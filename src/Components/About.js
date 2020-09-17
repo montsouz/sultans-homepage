@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         const howToGetTickets =
             'Este ano estamos usando a plataforma Sympla para realização ' +
-            'do evento online. A plataforma disponibiliza "igressos" como forma de controle, mas fique tranquilo eles são GRATUITOS e ' +
+            'do evento online. A plataforma disponibiliza "ingressos" como forma de controle, mas fique tranquilo eles são GRATUITOS e ' +
             'de fácil acesso.Basta clicar no botão abaixo para acessar a página do evento.\n';
 
         const imgStyle = {
