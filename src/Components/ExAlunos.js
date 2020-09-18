@@ -3,6 +3,8 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import '../styles/exaluno.css';
 import React from 'react';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 const generateExAluno = (exaluno) => {
     return (
@@ -35,16 +37,43 @@ faceiras...nascia, assim, esse oásis de liberdade, cultura e “divertimento”
 `;
 
 const ExAlunos = () => {
+    const responsive = {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        1024: {
+            items: 2,
+        },
+    };
+
     return (
         <section id="exalunos">
             <div className="row">
                 <div className="nine columns main-col">
                     <h2>História da Fundação </h2>
-                    <p style={{textAlign: 'justify'}}>{fundationText}</p>
+                    <p style={{ textAlign: 'justify' }}>{fundationText}</p>
                     <h2>Ex-alunos Homenageados </h2>
-                    <Slider duration={0} autoplay={3000} touchDisabled={true}>
+                    {/* <Slider duration={0} autoplay={3000} touchDisabled={true}>
                         {EXALUNOS.map((exaluno) => generateExAluno(exaluno))}
-                    </Slider>
+                    </Slider> */}
+
+                    <AliceCarousel
+                        duration={400}
+                        autoPlay={true}
+                        startIndex={1}
+                        fadeOutAnimation={true}
+                        mouseDragEnabled={true}
+                        playButtonEnabled={false}
+                        responsive={responsive}
+                        autoPlayInterval={2000}
+                        autoPlayDirection="rtl"
+                        autoPlayActionDisabled={true}
+                    >
+                        {EXALUNOS.map((exaluno) => generateExAluno(exaluno))}
+                    </AliceCarousel>
                 </div>
             </div>
         </section>

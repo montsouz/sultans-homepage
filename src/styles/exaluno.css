@@ -66,6 +66,10 @@
     overflow: hidden;
 }
 
+.alice-carousel__wrapper{
+    height: 400px!important;
+}
+
 @media screen and (min-width: 600px) {
     .exaluno-img{
         width: 580px;
@@ -85,6 +89,10 @@
 
     .exaluno-desc{
         width: 580px;
+    }
+
+    .alice-carousel__wrapper{
+        height: 700px!important;
     }
   }
 

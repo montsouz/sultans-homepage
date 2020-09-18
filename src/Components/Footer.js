@@ -2,24 +2,23 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
     render() {
-        if (this.props.data) {
-            var networks = this.props.data.social.map(function (network) {
-                return (
-                    <li key={network.name}>
-                        <a href={network.url}>
-                            <i className={network.className}></i>
-                        </a>
-                    </li>
-                );
-            });
-        }
-
         return (
             <footer>
                 <div className="row">
                     <div className="twelve columns">
-                        <ul className="social-links">{networks}</ul>
-
+                        <ul className="social-links">
+                            <li key={'facebook'}>
+                                <a href={"https://www.facebook.com/repjardimdealah/"}>
+                                    <i className={"fa fa-facebook"}></i>
+                                </a>
+                            </li>
+                            <li key={"instagram"}>
+                                <a href={"https://www.instagram.com/repjardimdealah"}>
+                                    <i className={"fa fa-instagram"}></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p style={{fontStyle: 'italic'}}>"São saudades de nossos tempos de república Jardim de Alah, onde o espiríto de união e de amaizade configura o nosso patrimônio."</p>
                         <ul className="copyright">
                             <li>&copy; Copyright 2020 Jardim de Alah</li>
                             <li>
