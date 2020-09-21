@@ -1,3 +1,5 @@
+
+import MALACA from './malaca.jpg'
 import MOITA from './moita.jpg'
 import BILOCA from './biloca.jpg'
 import MAGUINHO from './maguinho.jpg'
@@ -15,6 +17,13 @@ import MAOLIMPA from './mao limpa.jpeg'
 
 
 export const EXALUNOS = [
+    {
+        name: "Malaca",
+        fullName: "Roosevelt M. de Miranda",
+        graduatedYears: "50",
+        graduatedIn: "1970",
+        image: MALACA
+    },
     {
         name: "Moita",
         fullName: "Lélio Geraldo das Oliveiras",
