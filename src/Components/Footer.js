@@ -18,7 +18,7 @@ class Footer extends Component {
                                 </a>
                             </li>
                         </ul>
-                        <p style={{fontStyle: 'italic'}}>"São saudades de nossos tempos de república Jardim de Alah, onde o espiríto de união e de amaizade configura o nosso patrimônio."</p>
+                        <p style={{fontStyle: 'italic'}}>"São saudades de nossos tempos de república Jardim de Alah, onde o espiríto de união e de amizade configura o nosso patrimônio."</p>
                         <ul className="copyright">
                             <li>&copy; Copyright 2020 Jardim de Alah</li>
                             <li>

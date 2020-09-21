@@ -23,7 +23,7 @@ const fundationText = `
 Foi no ano da Graça de Nosso Senhor Jesus Cristo, de 1964 (ano da Gloriosa), 
 que lá pelas bandas da Rua do Carmo, na Paróquia da Matriz de Nossa Senhora 
 do Pilar na Cidade de Vila Rica de Ouro Preto, da Província de Minas Gerais 
-que se teve ideia de edificar uma fortaleza...Sentinela essa, com a missão primordial, 
+que se teve ideia de edificar uma fortaleza... Sentinela essa, com a missão primordial, 
 de forjar desbravadores e defensores do conhecimento mundano e acadêmico, daria guarda, 
 por vezes, a tão belas jovens moçoilas que viessem as plagas ouropretanas, 
 em busca de felicidade e lábia daqueles nobres estudantes de disponíveis e vagabundos corações.
@@ -68,7 +68,7 @@ const ExAlunos = () => {
                         mouseDragEnabled={true}
                         playButtonEnabled={false}
                         responsive={responsive}
-                        autoPlayInterval={2000}
+                        autoPlayInterval={5000}
                         autoPlayDirection="rtl"
                         autoPlayActionDisabled={true}
                     >
