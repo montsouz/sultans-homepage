@@ -1,7 +1,6 @@
 import CADASTRO from './cadastro_info01.jpeg'
 import FINAL from './compra_final.jpeg'
 import LISTA from './lista_de_ingressos.jpeg'
-import INGRESSO from './pag_do_ingresso.jpeg'
 import VER_INGRESSO from './ver_ingressos.jpeg'
 
 export const TUTORIAL = [

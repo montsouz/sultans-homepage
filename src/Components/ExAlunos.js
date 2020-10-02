@@ -1,10 +1,12 @@
 import { EXALUNOS } from '../Documents/homenageados/exalunos';
-import Slider from 'react-animated-slider';
+import {AGRADECIMENTOS} from '../Documents/agradecimentos/agradecimentos'
 import 'react-animated-slider/build/horizontal.css';
 import '../styles/exaluno.css';
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import ReadMoreReact from 'read-more-react';
+
 
 const generateExAluno = (exaluno) => {
     return (
@@ -36,6 +38,19 @@ faceiras...nascia, assim, esse oásis de liberdade, cultura e “divertimento”
 
 `;
 
+const storyComponent = ({text, author}) => {
+    return (
+        <div>
+             <ReadMoreReact text={text}
+                min={300}
+                ideal={300}
+                max={300}
+                readMoreText="Ler mais"/>
+             <div style={{marginBottom: '25px', marginTop: '15px', fontStyle: 'italic'}}>{author}</div>
+        </div>
+    )
+}
+
 const ExAlunos = () => {
     const responsive = {
         0: {
@@ -56,9 +71,6 @@ const ExAlunos = () => {
                     <h2>História da Fundação </h2>
                     <p style={{ textAlign: 'justify' }}>{fundationText}</p>
                     <h2>Ex-alunos Homenageados </h2>
-                    {/* <Slider duration={0} autoplay={3000} touchDisabled={true}>
-                        {EXALUNOS.map((exaluno) => generateExAluno(exaluno))}
-                    </Slider> */}
 
                     <AliceCarousel
                         duration={400}
@@ -74,6 +86,9 @@ const ExAlunos = () => {
                     >
                         {EXALUNOS.map((exaluno) => generateExAluno(exaluno))}
                     </AliceCarousel>
+
+                    <h2>Depoimentos</h2>
+                    {AGRADECIMENTOS.map(story => storyComponent({...story}))}
                 </div>
             </div>
         </section>
