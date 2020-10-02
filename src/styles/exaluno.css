@@ -70,6 +70,20 @@
     height: 450px!important;
 }
 
+.read-more-button{
+    color: #cc5200
+}
+
+.display-text-group{
+    text-align: justify;
+    font-style: italic;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
 @media screen and (min-width: 600px) {
     .exaluno-img{
         width: 580px;

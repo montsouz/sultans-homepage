@@ -46,7 +46,7 @@ const storyComponent = ({text, author}) => {
                 ideal={300}
                 max={300}
                 readMoreText="Ler mais"/>
-             <div>{author}</div>
+             <div style={{marginBottom: '25px', marginTop: '15px', fontStyle: 'italic'}}>{author}</div>
         </div>
     )
 }
