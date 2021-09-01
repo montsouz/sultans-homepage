@@ -2,13 +2,15 @@ import React from 'react';
 
 const Playlists = () => {
     return (
-        <section id='playlists'>
+        <section id="playlists">
             <div className="row">
                 <div className="nine columns main-col playlists">
                     <h2 style={{ fontSize: '32px', color: '#ffff' }}>Para curtir um som</h2>
-                    <p style={{ marginTop: '30px' }}>A música faz parte da nossa história! Todos nós temos aquele trecho que instantaneamente nos faz 
-                        lembrar dos nossos momentos republicanos, seja um samba no terraço ou um rock’n’ roll na boate. 
-                        Esperamos que essas playlists possam reviver memórias dos bons tempos de Jardim de Alah.</p>
+                    <p style={{ marginTop: '30px' }}>
+                        A música faz parte da nossa história! Todos nós temos aquele trecho que instantaneamente nos faz
+                        lembrar dos nossos momentos republicanos, seja um samba no terraço ou um rock’n’ roll na boate.
+                        Esperamos que essas playlists possam reviver memórias dos bons tempos de Jardim de Alah.
+                    </p>
                     <br></br>
                     <div>
                         <iframe
@@ -66,4 +68,4 @@ const Playlists = () => {
     );
 };
 
-export default Playlists
+export default Playlists;

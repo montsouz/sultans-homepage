@@ -41,7 +41,9 @@ class About extends Component {
                         <h2 style={{ fontSize: '28px' }}>Sobre os Ingressos</h2>
                         <p className="desktop-paragraph">{howToGetTickets}</p>
                         <ul className="social">
-                          <a href={tickets} className="button btn project-btn"><i className="fa fa-ticket"></i>Convite</a>
+                            <a href={tickets} className="button btn project-btn">
+                                <i className="fa fa-ticket"></i>Convite
+                            </a>
                         </ul>
                         <div>{generateTutorial()}</div>
                     </div>

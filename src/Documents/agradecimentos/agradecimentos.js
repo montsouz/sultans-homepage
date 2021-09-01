@@ -96,8 +96,7 @@ export const AGRADECIMENTOS = [
         author: 'Helder Carvalho Ferreira “Varal”',
     },
     {
-        text:
-            '25 anos de muito agradecimento: agradecimento aos meus pais, a minha família, à República Jardim de Alah, à Escola de Minas, à cidade de Ouro Preto, a todos os professores da Universidade, aos meus contemporâneos, aos ex-alunos e aos alunos que hoje cuidam da Jardim! Enfim, o meu sincero agradecimento a todos que participaram e que me ajudaram nessa caminhada! Engenheiro Metalurgista',
+        text: '25 anos de muito agradecimento: agradecimento aos meus pais, a minha família, à República Jardim de Alah, à Escola de Minas, à cidade de Ouro Preto, a todos os professores da Universidade, aos meus contemporâneos, aos ex-alunos e aos alunos que hoje cuidam da Jardim! Enfim, o meu sincero agradecimento a todos que participaram e que me ajudaram nessa caminhada! Engenheiro Metalurgista',
         author: 'Arilton Café de Moura “Xabão”',
     },
     {

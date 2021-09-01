@@ -1,12 +1,11 @@
 import { EXALUNOS } from '../Documents/homenageados/exalunos';
-import {AGRADECIMENTOS} from '../Documents/agradecimentos/agradecimentos'
+import { AGRADECIMENTOS } from '../Documents/agradecimentos/agradecimentos';
 import 'react-animated-slider/build/horizontal.css';
 import '../styles/exaluno.css';
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import ReadMoreReact from 'read-more-react';
-
 
 const generateExAluno = (exaluno) => {
     return (
@@ -38,18 +37,14 @@ faceiras...nascia, assim, esse oásis de liberdade, cultura e “divertimento”
 
 `;
 
-const storyComponent = ({text, author}) => {
+const storyComponent = ({ text, author }) => {
     return (
         <div>
-             <ReadMoreReact text={text}
-                min={300}
-                ideal={300}
-                max={300}
-                readMoreText="Ler mais"/>
-             <div style={{marginBottom: '25px', marginTop: '15px', fontStyle: 'italic'}}>{author}</div>
+            <ReadMoreReact text={text} min={300} ideal={300} max={300} readMoreText="Ler mais" />
+            <div style={{ marginBottom: '25px', marginTop: '15px', fontStyle: 'italic' }}>{author}</div>
         </div>
-    )
-}
+    );
+};
 
 const ExAlunos = () => {
     const responsive = {
@@ -88,7 +83,7 @@ const ExAlunos = () => {
                     </AliceCarousel>
 
                     <h2>Depoimentos</h2>
-                    {AGRADECIMENTOS.map(story => storyComponent({...story}))}
+                    {AGRADECIMENTOS.map((story) => storyComponent({ ...story }))}
                 </div>
             </div>
         </section>
