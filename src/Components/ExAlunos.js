@@ -20,7 +20,7 @@ const generateExAluno = (exaluno) => {
     );
 };
 
-const fundationText = `
+const foundationText = `
 Foi no ano da Graça de Nosso Senhor Jesus Cristo, de 1964 (ano da Gloriosa), 
 que lá pelas bandas da Rua do Carmo, na Paróquia da Matriz de Nossa Senhora 
 do Pilar na Cidade de Vila Rica de Ouro Preto, da Província de Minas Gerais 
@@ -64,7 +64,7 @@ const ExAlunos = () => {
             <div className="row">
                 <div className="nine columns main-col">
                     <h2>História da Fundação </h2>
-                    <p style={{ textAlign: 'justify' }}>{fundationText}</p>
+                    <p style={{ textAlign: 'justify' }}>{foundationText}</p>
                     <h2>Ex-alunos Homenageados </h2>
 
                     <AliceCarousel
