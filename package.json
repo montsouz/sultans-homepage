@@ -15,7 +15,7 @@
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
     "react-responsive-carousel": "^3.2.9",
-    "react-scripts": "1.0.17",
+    "react-scripts": "^4.0.3",
     "read-more-react": "^1.0.10"
   },
   "scripts": {
@@ -26,5 +26,17 @@
   },
   "devDependencies": {
     "react-alice-carousel": "^1.19.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
