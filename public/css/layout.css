@@ -32,7 +32,7 @@ body {
 
 header {
     position: relative;
-    height: 800px;
+    height: 1024px;
     min-height: 500px;
     width: 100%;
     background-image: url('../images/site-wallpaper.png');
@@ -95,6 +95,9 @@ header .social {
     margin: 24px 0;
     padding: 0;
     font-size: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
 }
 
 header .social li {
@@ -161,7 +164,7 @@ header .scrolldown a:hover {
 }
 
 .opaque {
-    background-color: #333;
+    background-color: #1f2b42;
 }
 
 /* hide toggle button */
@@ -207,7 +210,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: #fe6928;
+    color: #ffcd05;
 }
 
 /* ------------------------------------------------------------------ */
@@ -577,7 +580,7 @@ call-to-action .button {
 }
 
 #exalunos {
-    background: #191919;
+    background: #071229;
     padding-top: 96px;
     padding-bottom: 102px;
     color: #e2e2e2;
@@ -723,7 +726,7 @@ footer .social-links li:first-child {
 }
 
 #playlists {
-    background: #191919;
+    background: #040915;
     padding-top: 96px;
     padding-bottom: 102px;
     color: #e2e2e2;

@@ -27,31 +27,32 @@ const Header = () => {
 
             <div className="row banner">
                 <div className="banner-text">
-                    <h1 className="responsive-headline">Doze de Outubro 2021</h1>
+                    {/* <h1 className="responsive-headline">Doze de Outubro 2021</h1>
                     <h3>
                         Esta é a página que fizemos especialmente para o evento, aqui você vai encontrar informações
                         sobre como adquirir convites gratuitos e vai poder ouvir playlists especiais
-                    </h3>
+                    </h3> */}
                     <hr />
-                    <ul className="social">
-                        <a
-                            href={'https://www.sympla.com.br/doze-de-outubro-2020---jardim-de-alah__982152'}
-                            className="button btn project-btn"
-                        >
-                            <i className="fa fa-ticket"></i>Convite
-                        </a>
-                        <a href="#about" className="button btn github-btn">
-                            <i className="fa fa-plus"></i>Saber mais
-                        </a>
-                    </ul>
                 </div>
             </div>
 
-            <p className="scrolldown">
+            {/* <ul className="social">
+                <a
+                    href={'https://www.sympla.com.br/doze-de-outubro-2020---jardim-de-alah__982152'}
+                    className="button btn project-btn"
+                >
+                    <i className="fa fa-ticket"></i>Convite
+                </a>
+                <a href="#about" className="button btn github-btn">
+                    <i className="fa fa-plus"></i>Saber mais
+                </a>
+            </ul> */}
+
+            {/* <p className="scrolldown">
                 <a className="smoothscroll" href="#about">
                     <i className="icon-down-circle"></i>
                 </a>
-            </p>
+            </p> */}
         </header>
     );
 };
