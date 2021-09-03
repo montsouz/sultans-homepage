@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - master
 
 name: Deploy to Amazon S3 and create Cloudfront invalidations
 
