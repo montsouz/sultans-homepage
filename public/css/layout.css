@@ -43,6 +43,13 @@ header {
     overflow: hidden;
 }
 
+@media only screen and (max-width: 480px) {
+    header {
+        height: 500px !important;
+        background-position: center;
+    }
+}
+
 /* vertically center banner section */
 header:before {
     content: '';
