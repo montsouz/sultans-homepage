@@ -35,9 +35,9 @@ jobs:
         run: |
           echo Build started on `date`
           echo Install dependencies
-          yarn install
+          npm i
           echo Build
-          yarn build
+          npm run build
           echo Build completed on `date`
 
       - name: Upload
