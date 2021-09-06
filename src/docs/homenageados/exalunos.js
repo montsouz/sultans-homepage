@@ -1,125 +1,99 @@
-
-import MALACA from './malaca.jpg'
-import MOITA from './moita.jpg'
-import BILOCA from './biloca.jpg'
-import MAGUINHO from './maguinho.jpg'
-import PAPOLA from './papoula.jpg'
-import RATAO from './ratao.jpg'
-import KOJAK from './kojak.jpg'
-import VARAL from './varal.jpg'
-import XUPA from './xupa.jpg'
-import XABAO from './xabao.jpg'
-import FRESKURA from './freskura.jpg'
-import KAMIZINHA from './Kamisinha.jpg'
-import GARDEL from './gardel.jpg'
-import BRABU from './brabu.jpeg'
-import MAOLIMPA from './mao limpa.jpeg'
-
+import BAIXO from './baixo.jpg';
+import GRAUNA from './grauna.jpg';
+import PIPI from './pipi.jpg';
+import KONDE from './konde.jpg';
+import KAMARAO from './kamarao.jpg';
+import MALA from './mala.jpg';
+import CASADO from './casado.jpg';
+import PIKUIA from './pikuia.jpg';
+import BY from './by.jpg';
+import FOSSIL from './fossil.jpg';
+import MURRINHA from './murrinha.jpg';
+import RASPADO from './raspado-1.jpg';
 
 export const EXALUNOS = [
     {
-        name: "Malaca",
-        fullName: "Roosevelt M. de Miranda",
-        graduatedYears: "50",
-        graduatedIn: "1970",
-        image: MALACA
+        name: 'Baixo',
+        fullName: 'Antônio Alonso Ribeiro',
+        graduatedYears: '55',
+        graduatedIn: '1970',
+        image: BAIXO,
     },
     {
-        name: "Moita",
-        fullName: "Lélio Geraldo das Oliveiras",
-        graduatedYears: "45",
-        graduatedIn: "1975",
-        image: MOITA
+        name: 'Graúna',
+        fullName: 'Luciano Rocha Borba',
+        graduatedYears: '45',
+        graduatedIn: '1970',
+        image: GRAUNA,
     },
     {
-        name: "Biloca",
-        fullName: "João Honório de Assunção",
-        graduatedYears: "45",
-        graduatedIn: "1975",
-        image: BILOCA
+        name: 'Pipi',
+        fullName: 'Itavahn Alves da Silva',
+        graduatedYears: '45',
+        graduatedIn: '1970',
+        image: PIPI,
     },
     {
-        name: "Maguinho",
-        fullName: "Marcos Magno das Chagas",
-        graduatedYears: "45",
-        graduatedIn: "1975",
-        image: MAGUINHO
+        name: 'Konde',
+        fullName: 'Elias Symphrônio de C. Neto',
+        graduatedYears: '40',
+        graduatedIn: '1970',
+        image: KONDE,
     },
     {
-        name: "Papola",
-        fullName: "Edson Pereira Bueno",
-        graduatedYears: "40",
-        graduatedIn: "1980",
-        image: PAPOLA
+        name: 'Kamarão',
+        fullName: 'Dirceu Mazer',
+        graduatedYears: '40',
+        graduatedIn: '1970',
+        image: KAMARAO,
     },
     {
-        name: "Ratão",
-        fullName: "Fernando Haroldo Mota Nobre",
-        graduatedYears: "40",
-        graduatedIn: "1980",
-        image: RATAO
+        name: 'Mala',
+        fullName: 'Sergio Luiz Neves',
+        graduatedYears: '35',
+        graduatedIn: '1970',
+        image: MALA,
     },
     {
-        name: "Kojak",
-        fullName: "Carlos Antônio da Silva",
-        graduatedYears: "40",
-        graduatedIn: "1980",
-        image: KOJAK
+        name: 'Casado',
+        fullName: 'Nelson Padilha da Costa Jr.',
+        graduatedYears: '35',
+        graduatedIn: '1970',
+        image: CASADO,
     },
     {
-        name: "Varal",
-        fullName: "Helder Carvalho Ferreira",
-        graduatedYears: "35",
-        graduatedIn: "1985",
-        image: VARAL
+        name: 'Pikuia',
+        fullName: 'Sérgio B. de Andrade',
+        graduatedYears: '35',
+        graduatedIn: '1970',
+        image: PIKUIA,
     },
     {
-        name: "Xupa",
-        fullName: "Roberto Dias Boaventura",
-        graduatedYears: "30",
-        graduatedIn: "1990",
-        image: XUPA
+        name: 'By',
+        fullName: 'Sergio Luiz de M. Monteiro',
+        graduatedYears: '30',
+        graduatedIn: '1970',
+        image: BY,
     },
     {
-        name: "Xabão",
-        fullName: "Arilton Café de Moura",
-        graduatedYears: "25",
-        graduatedIn: "1995",
-        image: XABAO
+        name: 'Fóssil',
+        fullName: 'Roberto Penha de Freitas',
+        graduatedYears: '25',
+        graduatedIn: '1970',
+        image: FOSSIL,
     },
     {
-        name: "Freskura",
-        fullName: "Alexandre da Costa Ladeira",
-        graduatedYears: "20",
-        graduatedIn: "2000",
-        image: FRESKURA
+        name: 'Murrinha',
+        fullName: 'João Carlos de Assunção',
+        graduatedYears: '15',
+        graduatedIn: '1970',
+        image: MURRINHA,
     },
     {
-        name: "Kamizinha",
-        fullName: "Antônio O. S. Sobrinho",
-        graduatedYears: "15",
-        graduatedIn: "2005",
-        image: KAMIZINHA
-    },
-    {
-        name: "Gardel",
-        fullName: "Gardel Matoso de Oliveira",
-        graduatedYears: "15",
-        graduatedIn: "2005",
-        image: GARDEL
-    },
-    {
-        name: "Jorge Brabu",
-        fullName: "Iuri Teixera Sabato",
-        graduatedYears: "10",
-        graduatedIn: "2010",
-        image: BRABU
-    },
-    {
-        name: "Mão Limpa",
-        fullName: "Pedro Vitor Souza Dias",
-        graduatedYears: "5",
-        graduatedIn: "2015",
-        image: MAOLIMPA
+        name: 'Raspado',
+        fullName: 'Carlos Augusto B. Alves',
+        graduatedYears: '5',
+        graduatedIn: '1970',
+        image: RASPADO,
     },
 ];

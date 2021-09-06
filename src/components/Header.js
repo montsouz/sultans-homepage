@@ -18,8 +18,8 @@ const Header = () => {
                         </a>
                     </li>
                     <li>
-                        <a className="smoothscroll" href="#about">
-                            Saber mais
+                        <a className="smoothscroll" href="#exalunos">
+                            História
                         </a>
                     </li>
                 </ul>

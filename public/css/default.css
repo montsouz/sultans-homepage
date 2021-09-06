@@ -792,7 +792,7 @@ input[type='checkbox'] {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 1020px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 /* fixed width for IE8 */

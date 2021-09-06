@@ -38,7 +38,7 @@ const ExAlunos = () => {
                         República), ajudado pelos afagos das mãos odaliscas faceiras...nascia, assim, esse oásis de
                         liberdade, cultura e “divertimento” em tão dura e difícil época! A REPÚBLICA JARDIM DE ALAH.
                     </p>
-                    {/*
+
                     <h2>Ex-alunos Homenageados </h2>
 
                     <AliceCarousel
@@ -65,7 +65,7 @@ const ExAlunos = () => {
                                 </div>
                             </div>
                         ))}
-                    </AliceCarousel> */}
+                    </AliceCarousel>
 
                     <h2>Depoimentos</h2>
                     {AGRADECIMENTOS.map(({ author, text }) => (

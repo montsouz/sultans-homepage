@@ -4,13 +4,13 @@
     position: absolute;
 }
 
-.exaluno-img{
+.exaluno-img {
     width: auto;
     height: 442px;
     position: center;
 }
 
-.exaluno-desc{
+.exaluno-desc {
     position: absolute;
     background-color: black;
     opacity: 0.5;
@@ -41,7 +41,7 @@
     position: absolute;
     display: block;
     z-index: 3;
-    bottom:30px;
+    bottom: 30px;
 }
 
 .exaluno-graduatedYears {
@@ -66,15 +66,15 @@
     overflow: hidden;
 }
 
-.alice-carousel__wrapper{
-    height: 450px!important;
+.alice-carousel__wrapper {
+    height: 450px !important;
 }
 
-.read-more-button{
-    color: #cc5200
+.read-more-button {
+    color: #cc5200;
 }
 
-.display-text-group{
+.display-text-group {
     text-align: justify;
     font-style: italic;
     font-size: 16px;
@@ -85,13 +85,13 @@ p {
 }
 
 @media screen and (min-width: 600px) {
-    .exaluno-img{
-        width: 580px;
+    .exaluno-img {
+        width: 700px;
         height: 700px;
     }
 
     .desktop-paragraph {
-        padding: 0 267px  0 0;
+        padding: 0 267px 0 0;
     }
 
     .slider {
@@ -101,12 +101,11 @@ p {
         overflow: hidden;
     }
 
-    .exaluno-desc{
+    .exaluno-desc {
         width: 580px;
     }
 
-    .alice-carousel__wrapper{
-        height: 700px!important;
+    .alice-carousel__wrapper {
+        height: 700px !important;
     }
-  }
-
+}

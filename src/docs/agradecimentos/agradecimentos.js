@@ -86,4 +86,18 @@ export const AGRADECIMENTOS = [
         `,
         author: 'Sérgio Belisário de Andrade "Pikuia"',
     },
+    {
+        text: `Ao chegarmos, como engenheiros, em 1876, muito esforço e abnegação
+      nos foi legado ao desejo de lutar e vencer, nesse nosso objetivo profissional.
+      E muitos conhecimentos se aprenderam, muitas amizades se fizeram; muitas
+      alegrias se viveram. Conscientes, labutamos juntos nos momentos árduos,
+      compreendemos, lado a lado, os momentos difíceis e nos unimos, mais ainda,
+      nos momentos decisivos,
+      Por tudo isso, nos propusemos a fazer um retrospecto e uma prospecção: retrospecto ao nosso tempo de república, à nossa passagem pela Escola, de nossa convivência com Ouro Preto; prospecção na concretização dos nossos ideais, da necessidade em mantermos amigos, de nossa proposição em contribuir ao bem-estar social. Que as notificações aqui descritas, mesmo que sucintas,
+      sejam um elo entre o passado e o presente, mantendo a mesma harmonia para o futuro. Que o sucesso esteja sempre ao lado de cada um, assim como nós
+      todos sempre estivemos.
+      A todos que nos ajudaram: nossos pais, Escola, mestres, funcionários, instituições, Repúblicas, Ouro Preto e amigos, a expressão mais sincera de nossa
+      gratidão...`,
+        author: 'Luciano Rocha Borba "Graúna"',
+    },
 ];
