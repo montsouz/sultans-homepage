@@ -4,7 +4,7 @@ const Playlists = () => {
     return (
         <section id="playlists">
             <div className="row">
-                <div className="nine columns main-col playlists">
+                <div className="twelve columns main-col playlists">
                     <h2 style={{ fontSize: '32px', color: '#ffff' }}>Para curtir um som</h2>
                     <p style={{ marginTop: '30px' }}>
                         A música faz parte da nossa história! Todos nós temos aquele trecho que instantaneamente nos faz

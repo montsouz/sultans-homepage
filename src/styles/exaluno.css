@@ -86,8 +86,8 @@ p {
 
 @media screen and (min-width: 600px) {
     .exaluno-img {
-        width: 700px;
-        height: 700px;
+        width: 521px;
+        height: 680px;
     }
 
     .desktop-paragraph {
@@ -102,7 +102,7 @@ p {
     }
 
     .exaluno-desc {
-        width: 580px;
+        width: 524px;
     }
 
     .alice-carousel__wrapper {

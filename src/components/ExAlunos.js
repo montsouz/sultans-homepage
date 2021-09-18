@@ -23,7 +23,7 @@ const ExAlunos = () => {
     return (
         <section id="exalunos">
             <div className="row">
-                <div className="nine columns main-col">
+                <div className="twelve columns main-col">
                     <h2>História da Fundação </h2>
                     <p style={{ textAlign: 'justify' }}>
                         Foi no ano da Graça de Nosso Senhor Jesus Cristo, de 1964 (ano da Gloriosa), que lá pelas bandas

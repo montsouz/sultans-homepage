@@ -36,7 +36,7 @@ const About = () => {
     return (
         <section id="about">
             <div className="row">
-                <div className="nine columns main-col">
+                <div className="twelve columns main-col">
                     <h2 style={{ fontSize: '28px' }}>Sobre os Ingressos</h2>
                     <p className="desktop-paragraph">{howToGetTickets}</p>
                     <ul className="social">

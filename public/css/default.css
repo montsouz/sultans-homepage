@@ -1055,7 +1055,7 @@ properly.
     }
     .column,
     .columns {
-        width: auto !important;
+        /* width: auto !important; */
         float: none;
         margin-left: 0;
         margin-right: 0;
