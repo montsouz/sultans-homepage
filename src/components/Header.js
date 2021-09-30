@@ -1,6 +1,49 @@
 import React from 'react';
+import Countdown from 'react-countdown';
 
 const Header = () => {
+    const doze = new Date('Oct 9, 2021 00:00:00').getTime();
+
+    const format = (number) => {
+        return number < 10 ? `0${number}` : number;
+    };
+
+    // Renderer callback with condition
+    const renderer = ({ days, hours, minutes, seconds, completed }) => {
+        if (completed) {
+            // Render a complete state
+            return (
+                <a
+                    href={'https://www.sympla.com.br/doze-de-outubro-2020---jardim-de-alah__982152'}
+                    className="button btn project-btn"
+                >
+                    <i className="fa fa-ticket"></i>Acessar
+                </a>
+            );
+        } else {
+            // Render a countdown
+            return (
+                <div className="countdown">
+                    <p>O link para o encontro estará disponível em</p>
+                    <ul>
+                        <li>
+                            <span> {format(days)} </span>dias
+                        </li>
+                        <li>
+                            <span id="hours">{format(hours)} </span>hrs
+                        </li>
+                        <li>
+                            <span id="minutes">{format(minutes)}</span>min
+                        </li>
+                        <li>
+                            <span id="seconds">{format(seconds)}</span>seg
+                        </li>
+                    </ul>
+                </div>
+            );
+        }
+    };
+
     return (
         <header id="home">
             <nav id="nav-wrap">
@@ -23,36 +66,19 @@ const Header = () => {
                         </a>
                     </li>
                 </ul>
-            </nav>
 
-            <div className="row banner">
-                <div className="banner-text">
-                    {/* <h1 className="responsive-headline">Doze de Outubro 2021</h1>
-                    <h3>
-                        Esta é a página que fizemos especialmente para o evento, aqui você vai encontrar informações
-                        sobre como adquirir convites gratuitos e vai poder ouvir playlists especiais
-                    </h3> */}
-                    <hr />
+                <div className="schedule-text">
+                    <h2 style={{ color: 'white' }}>Cronograma - 09/10/2021</h2>
+                    <ul>
+                        <li>14h - Início do encontro</li>
+                        <li>16h - Homenagens</li>
+                        <li>19h - Live da Banda Hollybomba</li>
+                    </ul>
                 </div>
-            </div>
-
-            {/* <ul className="social">
-                <a
-                    href={'https://www.sympla.com.br/doze-de-outubro-2020---jardim-de-alah__982152'}
-                    className="button btn project-btn"
-                >
-                    <i className="fa fa-ticket"></i>Convite
-                </a>
-                <a href="#about" className="button btn github-btn">
-                    <i className="fa fa-plus"></i>Saber mais
-                </a>
-            </ul> */}
-
-            {/* <p className="scrolldown">
-                <a className="smoothscroll" href="#about">
-                    <i className="icon-down-circle"></i>
-                </a>
-            </p> */}
+            </nav>
+            <ul className="social">
+                <Countdown date={doze} renderer={renderer} />
+            </ul>
         </header>
     );
 };

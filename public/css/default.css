@@ -1178,3 +1178,90 @@ properly.
     margin-right: auto !important;
     text-align: center !important;
 }
+
+/* SCHEDULE */
+
+.schedule-text {
+    text-align: left;
+    padding: 32px;
+}
+
+#nav-wrap.opaque .schedule-text {
+    display: none;
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+
+.countdown {
+    padding: 16px;
+    font-size: 16px;
+}
+
+.countdown p {
+    text-transform: uppercase;
+}
+
+.countdown li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.countdown li span {
+    font-size: 32px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.schedule-desktop {
+    display: none;
+}
+
+@media only screen and (max-width: 460px) {
+    .schedule-text {
+        display: none;
+    }
+
+    .countdown {
+        width: max-content;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .countdown p {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .countdown ul {
+        text-align: left;
+    }
+
+    .countdown li {
+        margin: 0 15px !important;
+    }
+
+    .countdown li span {
+        font-size: 25px;
+        margin-bottom: 8px;
+        display: block;
+        text-align: center;
+    }
+
+    .schedule-desktop {
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    .schedule-desktop h2 {
+        margin-bottom: 16px !important;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wide .row {
+        max-width: 1180px;
+    }
+}

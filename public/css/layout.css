@@ -104,7 +104,9 @@ header .social {
     font-size: 30px;
     position: absolute;
     bottom: 30px;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffcd05;
 }
 
 header .social li {
@@ -713,8 +715,8 @@ footer .social-links li:first-child {
 }
 
 .social .btn {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .social .btn i {

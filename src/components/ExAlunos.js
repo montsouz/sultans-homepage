@@ -24,6 +24,15 @@ const ExAlunos = () => {
         <section id="exalunos">
             <div className="row">
                 <div className="twelve columns main-col">
+                    <div className="schedule-desktop">
+                        <h2>Cronograma - 09/10/2021</h2>
+                        <ul>
+                            <li>14h - Início do encontro</li>
+                            <li>16h - Homenagens</li>
+                            <li>19h - Live da Banda Hollybomba</li>
+                        </ul>
+                    </div>
+
                     <h2>História da Fundação </h2>
                     <p style={{ textAlign: 'justify' }}>
                         Foi no ano da Graça de Nosso Senhor Jesus Cristo, de 1964 (ano da Gloriosa), que lá pelas bandas
@@ -40,7 +49,6 @@ const ExAlunos = () => {
                     </p>
 
                     <h2>Ex-alunos Homenageados </h2>
-
                     <AliceCarousel
                         duration={400}
                         autoPlay={true}
