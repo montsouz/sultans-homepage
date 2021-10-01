@@ -31,7 +31,7 @@ export const AGRADECIMENTOS = [
 
         Ao conhecer a Jardim de Alah, foi que despertou meu interesse em estudar em nossa encantadora Escola de Minas, e assim foi...
 
-        Em minha memória, tenho várias passagens, boa parte delas registradas por nosso querido CARETA, Marcelo Bicalho, um verdadeiro artista, cinto muitas saudades deste irmão que durante nosso convívio foi um dos animadores das baladas com sua viola e os causos registrados com lindas charges e relatos escritos, importante o trabalho que os moradores estão fazendo para resgatar nossas estórias.
+        Em minha memória, tenho várias passagens, boa parte delas registradas por nosso querido CARETA, Marcelo Bicalho, um verdadeiro artista, sinto muitas saudades deste irmão que durante nosso convívio foi um dos animadores das baladas com sua viola e os causos registrados com lindas charges e relatos escritos, importante o trabalho que os moradores estão fazendo para resgatar nossas estórias.
 
         Dos desgarrados tenho ótimas lembranças do divertido CABO VERDE, formou-se e nunca mais tive notícias, mas quando morador ele era um dos que ao passar uma excursão pela Amália Bernhaus, já convidava a galera pra subir, já pegava o liquidificador e lá se vai uma batida de abacaxi, som na caixa e o pau comia..., coitado de quem tinha prova no outro dia...
 

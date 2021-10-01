@@ -72,7 +72,7 @@ const Header = () => {
                     <ul>
                         <li>14h - Início do encontro</li>
                         <li>16h - Homenagens</li>
-                        <li>19h - Live da Banda Hollybomba</li>
+                        <li>18h - Live da Banda Hollybomba</li>
                     </ul>
                 </div>
             </nav>
