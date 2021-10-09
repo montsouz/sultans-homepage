@@ -2,7 +2,7 @@ import React from 'react';
 import Countdown from 'react-countdown';
 
 const Header = () => {
-    const doze = new Date('Oct 9, 2021 14:00:00').getTime();
+    const doze = new Date('Oct 9, 2021 12:35:00').getTime();
 
     const format = (number) => {
         return number < 10 ? `0${number}` : number;
