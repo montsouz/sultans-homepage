@@ -2,7 +2,7 @@ import React from 'react';
 import Countdown from 'react-countdown';
 
 const Header = () => {
-    const doze = new Date('Oct 9, 2021 00:00:00').getTime();
+    const doze = new Date('Oct 9, 2021 14:00:00').getTime();
 
     const format = (number) => {
         return number < 10 ? `0${number}` : number;
@@ -14,7 +14,7 @@ const Header = () => {
             // Render a complete state
             return (
                 <a
-                    href={'https://www.sympla.com.br/doze-de-outubro-2020---jardim-de-alah__982152'}
+                    href={'https://zoom.us/j/99608585407?pwd=aUM4TmJENFF0Q0xQQmhhdkY3cDQxdz09'}
                     className="button btn project-btn"
                 >
                     <i className="fa fa-ticket"></i>Acessar
