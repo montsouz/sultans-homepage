@@ -77,7 +77,12 @@ const Header = () => {
                 </div>
             </nav>
             <ul className="social">
-                <Countdown date={doze} renderer={renderer} />
+                <a
+                    href={'https://zoom.us/j/99608585407?pwd=aUM4TmJENFF0Q0xQQmhhdkY3cDQxdz09'}
+                    className="button btn project-btn"
+                >
+                    <i className="fa fa-ticket"></i>Acessar
+                </a>
             </ul>
         </header>
     );
